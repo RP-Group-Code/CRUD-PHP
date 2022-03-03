@@ -9,7 +9,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- <link rel="stylesheet" href="assets/css/style.css" />   -->
-    <title>Web Dinamis</title>
+    <title>Web Dinamis CRUD</title>
 </head>
 
 <body>
@@ -70,7 +70,7 @@
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Edit Data Barang</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Edit Data Bahan Baku</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <form action="updatestock.php" method="POST">
@@ -110,7 +110,7 @@
                         <button type="submit" name="editstock" class="btn btn-primary">Ubah Stock</button>
                     </div>
                     <div class="modal-footer">
-                        
+
                     </div>
                 </form>
             </div>
